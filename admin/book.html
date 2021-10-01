@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <style>
+  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th { 
+	background: #8895a8; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+
+.label tr td label {
+	display: block;
+}
+
+
+[data-toggle="toggle"] {
+	display: none;
+}
+.icon{
+    width: 30px;
+    height:30px;
+    margin-left: 50px;
+   
+}
+button{
+	margin-left: 750px; 
+	background-color: #8895a8;
+    margin-top: 100px;
+}
+    </style>
+</head>
+<body>
+    <button>Ajouter</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Prix</th>
+                <th>Modifier</th>
+                <th>Supprimer</th>
+            </tr>
+        </thead>
+        <tbody>
+          
+            <tbody class="hide">
+                <tr>
+                    <td>L'Étranger</td>
+                    <td>Albert Camus</td>
+                    <td>6€30</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+                <tr>
+                    <td>Les Misérables</td>
+                    <td>Victor Hego</td>
+                    <td>4€95</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+           
+                <tr>
+                    <td>Le Petit Prince</td>
+                    <td>Antoine de Saint-Exupéry</td>
+                    <td>7€</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+               
+            
+            </tbody>		
+        </tbody>
+    </table>
+  
+
+ 
+</body>
+</html>

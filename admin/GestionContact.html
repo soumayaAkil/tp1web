@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gestion contact</title>
+    <style>
+  table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th { 
+	background: #8895a8; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+	}
+
+
+.label tr td label {
+	display: block;
+}
+
+
+[data-toggle="toggle"] {
+	display: none;
+}
+.icon{
+    width: 30px;
+    height:30px;
+    margin-left: 50px;
+   
+}
+button{
+	margin-left: 750px; 
+	background-color: #8895a8;
+    margin-top: 100px;
+}
+    </style>
+</head>
+<body>
+    <button>Ajouter</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Sujet</th>
+                <th>Modifier</th>
+                <th>Supprimer</th>
+            </tr>
+        </thead>
+        <tbody>
+          
+            <tbody class="hide">
+                <tr>
+                    <td>Albert</td>
+                    <td> Camus</td>
+                    <td>action</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+                <tr>
+                    <td>Victor</td>
+                    <td>Hego</td>
+                    <td>drama</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+           
+                <tr>
+                    <td>Antoine</td>
+                    <td>Antoine de Saint-Exupéry</td>
+                    <td>action</td>
+                    <td> <img class="icon"
+                        src="modif.png"
+                        alt="modifier"></td>
+                    <td><img class="icon"
+                        src="supp.png"
+                        alt="supprimer"></td>
+                </tr>
+               
+            
+            </tbody>		
+        </tbody>
+    </table>
+  
+
+ 
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      body
+      {
+        background: #8895a8;
+      }
+        h1 {
+            text-align: center;
+            font-size: 300%;
+        }
+     ul {
+   
+   width: 100%;
+   height: 10%;
+}
+
+   li {
+      
+   display: inline;
+   text-align:center;
+   padding: 20px;
+   margin: 10px;
+   
+   }
+div {
+    display:block;
+    margin-top:20px;
+}
+form {
+  display:block;
+    font-weight: center;
+ 
+}
+input,textarea {
+  border: none;
+  border-bottom: 2px solid violet;
+}
+.but {
+background-color: blueviolet;
+box-shadow: 2px 5px 10px var(--color-smoke);
+}
+.but :hover {
+    transition: all 150ms linear;
+
+    opacity: .85;
+  }
+  
+  .but :active {
+    transition: all 150ms linear;
+    opacity: .75;
+  }
+  
+  .but :focus {
+    outline: 1px dotted #959595;
+    outline-offset: -4px;
+  }
+  form {
+    width: 750px; 
+
+	margin:50px auto;
+  }
+  p{
+    font-weight: bold;
+  }
+    </style>
+</head>
+<body>
+    <h1>Bannière</h1>
+  <ul>
+    <li> <button class="but"><a href="tp1.html">Acceuil</a></button></li>
+    <li><button class="but"> <a href="cataloge.html">Ebooks</a></button></li>
+    <li><button class="but"><a href="contact.html">Contact</a></button></li>
+  </ul> 
+  
+  <form action="" method="post">
+  <div>
+    <p>Remplir formulaire</p>
+    <label for="name">Nom :</label>
+    <input type="text" id="name"  />
+  <div>
+    <div>
+        <label for="username">Prénom:</label>
+        <input type="text" id="username" />
+      <div>
+  <div>
+    <label for="mail">E-mail :</label>
+    <input type="email" id="mail" name="user_email" />
+  </div>
+  <div>
+    <label for="sujet">Sujet:  </label>
+    <input type="text" id="sujet" name="sujetName" />
+  </div>
+  <div>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+  <div class="button">
+    <button type="submit">Envoyer le message</button>
+</div>
+</form>
+</body>
+</html>

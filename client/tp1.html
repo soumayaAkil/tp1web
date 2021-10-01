@@ -1,0 +1,108 @@
+<!DOCTYPE >
+<html>
+<head>
+<title>Bannière</title>
+<style>
+        h1 {
+            text-align: center;
+            font-size: 300%;
+        }
+    title {
+        text-align:center;
+        position: fixed;
+
+    }
+    p {
+        font-weight: bold;
+    }
+    ul {
+ 
+    width: 100%;
+
+}
+
+    li {
+    display: inline;
+    text-align:center;
+    padding: 20px;
+    margin: 10px;
+    }
+.container {
+  display: flex;
+  height: auto;
+}
+.column {
+   display: inline-block;
+
+}
+
+.column > img {
+  background-color: #f1f1f1;
+  margin: 10px;
+width: 20%;
+height: auto;
+
+}
+.but {
+background-color: blueviolet;
+box-shadow: 2px 5px 10px var(--color-smoke);
+}
+.but :hover {
+    transition: all 150ms linear;
+
+    opacity: .85;
+  }
+  
+  .but :active {
+    transition: all 150ms linear;
+    opacity: .75;
+  }
+  
+  .but :focus {
+    outline: 1px dotted #959595;
+    outline-offset: -4px;
+  }
+
+  body
+      {
+        background: #8895a8;
+      }
+</style>
+</head>
+<body>
+<div classs="container">
+  <h1>Bannière</h1>
+  <ul >
+  <li> <button class="but"><a href="tp1.html">Acceuil</a></button></li>
+  <li><button class="but"> <a href="cataloge.html">Ebooks</a></button></li>
+  <li><button class="but"><a href="contact.html">Contact</a></button></li>
+  </ul>
+
+
+
+<p>
+        Bienvenue
+</p>
+
+    <div class="column">
+<img class="fit-picture"
+     src="livre1.png"
+     alt="livre 1">
+     <img class="fit-picture"
+     src="livre1.png"
+     alt="livre 2">
+     <img class="fit-picture"
+     src="livre1.png"
+     alt="livre 3">
+     <img class="fit-picture"
+     src="livre1.png"
+     alt="livre 4">
+    </div>
+
+
+
+
+<footer><a href="" id="autre">Voir tous les livres</a></footer>
+</div>
+</body>
+</html>
